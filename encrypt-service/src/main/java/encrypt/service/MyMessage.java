@@ -1,5 +1,8 @@
 package encrypt.service;
 
+import io.micronaut.core.annotation.Introspected;
+
+@Introspected
 public class MyMessage {
 
     private String text;
